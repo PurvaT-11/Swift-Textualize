@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A26105912DB3183B00416090 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26105902DB3183B00416090 /* CustomButtonView.swift */; };
+		A26105922DB3183B00416090 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261058F2DB3176600416090 /* Untitled.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A26105702DB3108E00416090 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +32,26 @@
 		A26105622DB3108C00416090 /* Capitalfun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capitalfun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A261056F2DB3108E00416090 /* CapitalfunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalfunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26105792DB3108E00416090 /* CapitalfunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalfunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A261058F2DB3176600416090 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		A26105902DB3183B00416090 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A261058E2DB3175400416090 /* Exceptions for "Capitalfun" folder in "Capitalfun" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = A26105612DB3108C00416090 /* Capitalfun */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A26105642DB3108C00416090 /* Capitalfun */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A261058E2DB3175400416090 /* Exceptions for "Capitalfun" folder in "Capitalfun" target */,
+			);
 			path = Capitalfun;
 			sourceTree = "<group>";
 		};
@@ -75,10 +95,12 @@
 		A26105592DB3108C00416090 = {
 			isa = PBXGroup;
 			children = (
+				A26105902DB3183B00416090 /* CustomButtonView.swift */,
 				A26105642DB3108C00416090 /* Capitalfun */,
 				A26105722DB3108E00416090 /* CapitalfunTests */,
 				A261057C2DB3108E00416090 /* CapitalfunUITests */,
 				A26105632DB3108C00416090 /* Products */,
+				A261058F2DB3176600416090 /* Untitled.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26105912DB3183B00416090 /* CustomButtonView.swift in Sources */,
+				A26105922DB3183B00416090 /* Untitled.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
