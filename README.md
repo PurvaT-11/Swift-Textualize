@@ -1,4 +1,4 @@
-# Capitalfun - Resume & Text Manipulation App
+# Textualize - Text Manipulation App
 
 **Capitalfun** is an iOS app built with **SwiftUI** that allows users to manipulate text by changing its case. This app provides features to capitalize text in **all caps**, **first letter capitalization**, and **lowercase** with a simple interface. Additionally, the app allows the user to **copy** the manipulated text to the clipboard. The main purpose of the app is to save me some time when working with text that needs quick capitalization or modification without using the **Shift** key (bit against the camelCasing ;)).
 
